@@ -23,7 +23,7 @@ const PROJECTS = [
     title: '📰  Bloagapp',
     desc: 'CRUD application built with Laravel for managing blog posts. Features creating, editing, and deleting posts with REST API integration for smooth data flow.',
     ss: '/blogapp.jpg',
-    tech: ['Laravel', 'MySQL', 'PHP', 'Bootstrap', 'Eloquent ORM'],
+    tech: ['React.js', 'CSS3', 'JavaScript'],
     live: 'https://inkwell-one-phi.vercel.app',
     code: 'https://github.com/monish-dev003/blog-app',
   },
