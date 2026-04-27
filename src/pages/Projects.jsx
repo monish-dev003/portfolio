@@ -1,3 +1,4 @@
+
 import React from 'react'
 import { motion } from 'framer-motion'
 import { Github, ExternalLink } from 'lucide-react'
@@ -16,7 +17,7 @@ const PROJECTS = [
     desc: 'React-based word analysis app featuring character count, word count, and detailed text statistics. Uses React hooks for real-time text processing and instant feedback.',
     ss: '/wordanalyzer.jpg',
     tech: ['React.js', 'CSS3', 'JavaScript'],
-    live: 'https://deluxe-lebkuchen-efc5ef.netlify.app/',
+    live: 'https://word-analyzer-7ut2.vercel.app/',
     code: 'https://github.com/monish-dev003/word-analyzer',
   },
   {
@@ -32,7 +33,7 @@ const PROJECTS = [
     desc: 'A modern, responsive developer portfolio built with React and Framer Motion. Features smooth animations, interactive skill visualization, and a clean deep-space aesthetic.',
     ss: '/portfolio.jpg',
     tech: ['React.js', 'Framer Motion', 'Vite', 'CSS3'],
-    live: 'https://monish-dev003.netlify.app',
+    live: 'https://portfolio-new-tau-umber.vercel.app/',
     code: 'https://github.com/monish-dev003/monish-portfolio',
   },
 ]
