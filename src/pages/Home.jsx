@@ -133,18 +133,7 @@ export default function Home() {
             ))}
           </motion.div>
 
-          {/* CTAs */}
-          <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 1.3 }}
-            style={{ display: 'flex', gap: '1rem', marginTop: '1.6rem', flexWrap: 'wrap' }}>
-            <motion.a href="/resume.pdf" download whileHover={{ scale: 1.05, boxShadow: '0 8px 30px rgba(123,111,232,0.35)' }}
-              style={{ background: 'linear-gradient(135deg,#7b6fe8,#4f8ef7)', color: '#fff', padding: '11px 24px', borderRadius: 10, fontWeight: 700, textDecoration: 'none', fontSize: '0.9rem' }}>
-              ⬇️ Download CV
-            </motion.a>
-            <motion.a href="/projects" whileHover={{ scale: 1.05, background: 'rgba(123,111,232,0.1)' }}
-              style={{ background: 'rgba(255,255,255,0.04)', border: '1px solid rgba(123,111,232,0.3)', color: '#fff', padding: '11px 24px', borderRadius: 10, fontWeight: 600, textDecoration: 'none', fontSize: '0.9rem' }}>
-              🚀 See Projects
-            </motion.a>
-          </motion.div>
+          
         </motion.div>
       </div>
 
